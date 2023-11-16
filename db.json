@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Tarea 1",
+      "description": "Descripción 1",
+      "state": "completada"
+    },
+    {
+      "id": 2,
+      "title": "Tarea 2",
+      "description": "Descripción 2",
+      "state": "completada"
+    },
+    {
+      "title": "Compra Supermercado",
+      "description": "Necesitamos comprar artículos de limpieza",
+      "state": "completada",
+      "id": 3
+    }
+  ]
+}
