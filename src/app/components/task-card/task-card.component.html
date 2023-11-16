@@ -1,0 +1,9 @@
+<div class="task-card">
+  <h3>{{ task.title }}</h3>
+  <p>{{ task.description }}</p>
+  <span class="status" [class.completed]="task.state === 'completada'">{{
+    task.state
+  }}</span>
+  <button (click)="onToggleStatus()">Cambiar Estado</button>
+  <button (click)="onDelete()">Eliminar Tarea</button>
+</div>
