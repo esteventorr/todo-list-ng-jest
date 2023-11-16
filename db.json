@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Tarea 1",
+      "description": "Descripción 1",
+      "state": "pendiente"
+    },
+    {
+      "id": 2,
+      "title": "Tarea 2",
+      "description": "Descripción 2",
+      "state": "pendiente"
+    },
+    {
+      "title": "Tarea 3",
+      "description": "Descripción 3",
+      "state": "pendiente",
+      "id": 3
+    }
+  ]
+}
