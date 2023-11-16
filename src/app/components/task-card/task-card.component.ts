@@ -7,7 +7,11 @@ import { Task } from '../../models/task.model';
   styleUrls: ['./task-card.component.scss'],
 })
 export class TaskCardComponent {
-  @Input() task!: Task;
+  @Input() task: Task = {
+    title: '',
+    description: '',
+    state: 'pendiente',
+  };
   @Output() delete = new EventEmitter<number>();
   @Output() toggleStatus = new EventEmitter<Task>();
 
